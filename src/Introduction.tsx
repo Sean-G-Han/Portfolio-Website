@@ -1,4 +1,5 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
+import image from "./assets/profile.jpg";
 
 function Introduction() {
   return (
@@ -9,13 +10,13 @@ function Introduction() {
             <Col xs={12} md="auto" className="d-flex justify-content-center">
               <div>
                 <Image 
-                  src="https://avatars.githubusercontent.com/u/156769273?s=96&v=4" 
+                  src={image}
                   alt="Profile" 
                   className="img-fluid rounded-circle d-block d-md-none" 
                   style={{ width: "250px" }}
                 />
                 <Image 
-                  src="https://avatars.githubusercontent.com/u/156769273?s=96&v=4"
+                  src={image}
                   alt="Profile"
                   className="img-fluid rounded-circle d-none d-md-block" 
                   style={{ width: "150px" }} 

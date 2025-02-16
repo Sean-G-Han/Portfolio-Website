@@ -7,19 +7,19 @@ import Proficiencies from './Proficiencies';
 
 function App() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5' style={{ backgroundColor: '#CDEBF5' }}>
       <NavigationBar />
       <div id="introduction">
-        <Introduction />
+      <Introduction />
       </div>
       <div id="project">
-        <ProjectShowcase />
+      <ProjectShowcase />
       </div>
       <div id="workExperience">
-        <WorkExperience />
+      <WorkExperience />
       </div>
       <div id="proficiencies">
-        <Proficiencies />
+      <Proficiencies />
       </div>
     </div>
   );
