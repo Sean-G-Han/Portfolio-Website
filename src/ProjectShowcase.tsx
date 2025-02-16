@@ -8,7 +8,7 @@ function ProjectShowcase() {
       <GridWrapper>
         <Project 
           name="20XX Space Bounty" 
-          description="2D platformer shooter roguelike developed as part of Project:Dev" 
+          description="2D platformer shooter roguelike developed with Godot" 
           badges={["Godot", "Game-Dev"]} 
           hyperlink="https://xenoxzard.itch.io/20xx-space-bounty"
           items={[
@@ -21,7 +21,7 @@ function ProjectShowcase() {
 
         <Project 
           name="Top Down Shooter?" 
-          description="Top down shooter developed as part of NUS Game Development Group" 
+          description="Top down shooter game developed with Godot" 
           badges={["Godot", "Game-Dev"]} 
           hyperlink="https://xenoxzard.itch.io/top-down-shooter-rouge-like"
           items={[

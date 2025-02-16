@@ -1,8 +1,11 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import "./FancyFont.css";
 
 function NavigationBar() {
   return (
     <Navbar fixed="bottom" bg="light" data-bs-theme="light" expand="lg">
+      <Container>
+      <Navbar.Brand href="#introduction" className="alex-brush-regular">Tan Yi Han</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
         <Nav className="text-center">
@@ -22,6 +25,7 @@ function NavigationBar() {
               </Nav.Link>
         </Nav>
       </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 }

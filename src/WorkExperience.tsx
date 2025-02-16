@@ -36,7 +36,7 @@ function WorkExperience() {
             ]}
           />
                     <Project 
-            name="Chevalier Pte Ltd - Lift Technician Intern" 
+            name="Chevalier Pte Ltd - Lift Service Technician Intern" 
             description="AUG 2020 - FEB 2021"
             badges={[
               "Engineering"
