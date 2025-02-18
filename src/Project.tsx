@@ -6,18 +6,18 @@ interface ProjectProps {
   description: string;
   badges?: string[];
   hyperlink?: string;
-  items?: string[]; // Accepts an array of list items
+  items?: string[];
 }
 
 const Project: React.FC<ProjectProps> = ({ name, description, badges, hyperlink, items }) => {
   return (
-    <Card className="border-1 my-2 shadow">
+    <Card className="border-1 my-2" bg="dark" data-bs-theme="dark">
       <Card.Body>
         <Card.Title>{name}</Card.Title>
 
         {hyperlink ? (
           <Card.Text>
-            {description}. To find out more, <a href={hyperlink}>Click Here</a>
+            {description}. <a href={hyperlink}>Click Here</a>
           </Card.Text>
         ) : (
           <Card.Text>{description}</Card.Text>
@@ -40,7 +40,7 @@ const Project: React.FC<ProjectProps> = ({ name, description, badges, hyperlink,
       </Card.Body>
       <Card.Footer>
         {badges && badges.map((badge, index) => (
-          <Badge key={index} bg="primary" className="me-1">
+          <Badge key={index} bg="dark" className="me-1">
             {badge}
           </Badge>
         ))}

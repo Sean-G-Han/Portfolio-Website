@@ -7,7 +7,7 @@ import Proficiencies from './Proficiencies';
 
 function App() {
   return (
-    <div className='mb-5' style={{ backgroundColor: '#CDEBF5' }}>
+    <div className='mb-5 bg-dark text-light'>
       <NavigationBar />
       <div id="introduction">
       <Introduction />
