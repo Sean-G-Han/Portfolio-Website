@@ -14,7 +14,7 @@ const GridWrapper: React.FC<GridProps> = ({ children }) => {
       <Container>
         <Row className="py-1">
           {children.map((child, index) => (
-            <Col key={index} md={4} className="mb-3">
+            <Col key={index} md={6} className="mb-3">
               {child}
             </Col>
           ))}

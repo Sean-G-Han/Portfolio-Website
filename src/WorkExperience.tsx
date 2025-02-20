@@ -35,18 +35,6 @@ function WorkExperience() {
               "Learned and applied basic SE skills and concepts"
             ]}
           />
-                    <Project 
-            name="Chevalier Pte Ltd - Lift Service Technician Intern" 
-            description="AUG 2020 - FEB 2021"
-            badges={[
-              "Engineering"
-            ]}
-            items={[
-              "Aided in Lift maintenance and repair",
-              "Learned basic engineering concepts and skills",
-              "Worked with a team of experienced lift technicians"
-            ]}
-          />
         </GridWrapper>
       </div>
     );
