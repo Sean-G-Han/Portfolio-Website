@@ -4,24 +4,25 @@ import { Badge, Card, Accordion, ListGroup } from "react-bootstrap";
 interface ProjectProps {
   name: string;
   description: string;
+  imageLink?: string;
   badges?: string[];
   hyperlink?: string;
   items?: string[];
 }
 
-const Project: React.FC<ProjectProps> = ({ name, description, badges, hyperlink, items }) => {
+const Product: React.FC<ProjectProps> = ({ name, imageLink, badges, items }) => {
   return (
-    <Card className="border-1 my-2" bg="dark" data-bs-theme="dark">
-      <Card.Body>
+    <Card className="border-0 my-2" bg="dark" data-bs-theme="dark">
+    <Card.Body>
+      <Card.Img variant="top" src={imageLink ? imageLink : ""} className="rounded"/>
+        <div className="my-2" />
         <Card.Title>{name}</Card.Title>
-        {hyperlink ? (
-          <Card.Text>
-            {description}. <a href={hyperlink}>Click Here</a>
-          </Card.Text>
-        ) : (
-          <Card.Text>{description}</Card.Text>
-        )}
-
+        	{badges && badges.map((badge, index) => (
+            <Badge key={index} bg="dark" className="me-1">
+              {badge}
+          	</Badge>
+        	))}
+				<div className="my-3" />
         {items && items.length > 0 && (
           <Accordion className="mt-2">
             <Accordion.Item eventKey="0">
@@ -37,15 +38,8 @@ const Project: React.FC<ProjectProps> = ({ name, description, badges, hyperlink,
           </Accordion>
         )}
       </Card.Body>
-      <Card.Footer>
-        {badges && badges.map((badge, index) => (
-          <Badge key={index} bg="dark" className="me-1">
-            {badge}
-          </Badge>
-        ))}
-      </Card.Footer>
     </Card>
   );
 };
 
-export default Project;
+export default Product;

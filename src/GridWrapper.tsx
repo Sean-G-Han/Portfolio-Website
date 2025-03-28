@@ -11,7 +11,7 @@ const GridWrapper: React.FC<GridProps> = ({ children }) => {
     }
   
     return (
-      <Container>
+      <Container fluid className="w-100">
         <Row className="py-1">
           {children.map((child, index) => (
             <Col key={index} md={6} className="mb-3">
@@ -21,7 +21,6 @@ const GridWrapper: React.FC<GridProps> = ({ children }) => {
         </Row>
       </Container>
     );
-  };
-  
+};
 
 export default GridWrapper;

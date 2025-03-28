@@ -3,8 +3,10 @@ import Project from "./Project";
 
 function ProjectShowcase() {
   return (
-    <div className="py-4">
-      <h1 className="text-center">Projects</h1>
+    <div className="py-4 mx-5">
+      <h1 className="mx-3">Projects</h1>
+      <h3 className="mx-3">I love to create things, and I'm always working on something new! You can view some of my favorite projects below.</h3>
+      <div className="my-4" />
       <GridWrapper>
         <Project 
           name="20XX Space Bounty" 
@@ -60,7 +62,7 @@ function ProjectShowcase() {
 
         <Project 
           name="Smart Vertical Farm" 
-          description="Reactive Vertical Farm that responds to environment (poly microcontroller project)" 
+          description="Reactive Vertical Farm that responds to environment" 
           badges={["Poly", "C/C++", "Robotics"]} 
           items={[
             "Programmed a smart vertical farm",
@@ -71,7 +73,7 @@ function ProjectShowcase() {
 
         <Project 
           name="Automated Guided Vehicle" 
-          description="Line tracing/follower robot for pick and place operations (poly Arduino project)" 
+          description="Line tracing/follower robot for pick and place operations" 
           badges={["Poly", "Arduino", "Robotics"]} 
           items={[
             "Programmed robot to complete line-tracing operations in Python",

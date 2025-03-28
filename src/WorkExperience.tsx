@@ -3,8 +3,10 @@ import Project from "./Project";
 
 function WorkExperience() {
     return (
-      <div className="py-4">
-        <h1 className="text-center">Past Internship/Work Experience</h1>
+      <div className="py-4 mx-5">
+        <h1 className="mx-3">Past Internship/Work Experience</h1>
+        <h3 className="mx-3">Here is a quick summary of all my most recent work and internship experiences</h3>
+        <div className="my-4" />
         <GridWrapper>
           <Project 
             name="Abound Learning - Robotics/Programming Junior" 
