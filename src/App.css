@@ -1,0 +1,9 @@
+.main-body {
+    margin-left: 250px;
+  }
+
+@media (max-width: 768px) {
+    .main-body {
+        margin-left: 100px;
+    }
+}
