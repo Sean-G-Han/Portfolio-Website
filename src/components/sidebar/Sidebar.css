@@ -1,15 +1,22 @@
+.black {
+    background-color: black;
+    color: white;
+}
+
 .fixed-sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     z-index: 1000;
-    width: 250px;
+    width: 220px;
     overflow-y: auto;
   }
 
 @media (max-width: 768px) {
     .fixed-sidebar {
         width: 100px;
+        right: 0;
+        left: auto;
     }
 }

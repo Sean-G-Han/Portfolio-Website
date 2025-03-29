@@ -1,4 +1,5 @@
 import React from 'react'
+import './Sidebar.css';
 import { ListGroupItem, Nav, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 interface NavItemProps {
@@ -10,16 +11,16 @@ interface NavItemProps {
 
 const BarItem: React.FC<NavItemProps> = ({ name, link, sub = false, children }) => {
   return (
-    <ListGroupItem className='bg-dark text-light'>
+    <ListGroupItem className='black'>
       <Nav>
         <Nav.Item>
           <Nav.Link href={link} className={sub ? 'text-secondary' : 'text-light fw-bold'}>
-          <OverlayTrigger placement="right"
-            overlay={<Tooltip id="tooltip-right">{name}</Tooltip>}
+          <OverlayTrigger placement="top"
+            overlay={<Tooltip id="tooltip-top">{name}</Tooltip>}
           >
             <span className='me-2'>{children}</span>
           </OverlayTrigger>
-            <span className='d-none d-md-inline' style={{ fontSize: '0.875rem' }}>{name}</span>
+            <span className='d-none d-md-inline' style={{ fontSize: '1rem' }}>{name}</span>
           </Nav.Link>
         </Nav.Item>
       </Nav>
