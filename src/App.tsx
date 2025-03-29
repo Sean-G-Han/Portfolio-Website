@@ -5,6 +5,8 @@ import Sidebar from './components/sidebar/Sidebar';
 import { Col, Container, Row } from 'react-bootstrap';
 import AboutMe from './components/aboutme/AboutMe';
 import Projects from './components/projects/Projects';
+import Experiences from './components/experiences/Experiences';
+import NavigationBar from './components/mobile-navbar/NavigationBar';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Container fluid className='m-0 p-0'>
         <Row className='vh-100'>
           <Sidebar />
+          <NavigationBar />
           <Col className='main-body'>
             <Row>
               <Introduction />
@@ -21,6 +24,9 @@ function App() {
             </Row>
             <Row id='projects'>
               <Projects />
+            </Row>
+            <Row id='experiences'>
+              <Experiences />
             </Row>
           </Col>
         </Row>

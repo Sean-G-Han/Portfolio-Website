@@ -11,7 +11,7 @@ interface NavItemProps {
 
 const BarItem: React.FC<NavItemProps> = ({ name, link, sub = false, children }) => {
   return (
-    <ListGroupItem className='black'>
+    <ListGroupItem className='black py-3'>
       <Nav>
         <Nav.Item>
           <Nav.Link href={link} className={sub ? 'text-secondary' : 'text-light fw-bold'}>

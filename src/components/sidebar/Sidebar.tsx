@@ -3,30 +3,27 @@ import './FancyFont.css';
 import './Sidebar.css';
 import { Container, ListGroup } from 'react-bootstrap';
 import BarItem from './BarItem';
-import { FaHome, FaInfoCircle, FaProjectDiagram, FaEnvelope, FaFileAlt, FaSuitcase } from 'react-icons/fa';
+import { FaGithub, FaHome, FaInfoCircle, FaProjectDiagram, FaSuitcase } from 'react-icons/fa';
 
 function Sidebar() {
   return (
-    <Container className='vh-100 fixed-sidebar black'>
+    <Container className='vh-100 fixed-sidebar black align-items-center'>
       <ListGroup variant="flush">
-        <center className='alex-brush-regular'>Tan Yi Han</center>
+        <center className='alex-brush-regular' style={{fontSize: '1.7rem'}}>Tan Yi Han</center>
         <BarItem name="Home" link="/">
-          <FaHome />
+          <FaHome size={25} />
         </BarItem>
         <BarItem name="About" link="#aboutMe">
-          <FaInfoCircle />
+          <FaInfoCircle size={25} />
         </BarItem>
         <BarItem name="Projects" link="#projects">
-          <FaProjectDiagram />
+          <FaProjectDiagram size={25} />
         </BarItem>
         <BarItem name="Experiences" link="#experiences">
-          <FaSuitcase />
+          <FaSuitcase size={25} />
         </BarItem>
-        <BarItem name="Contact" link="#contact">
-          <FaEnvelope />
-        </BarItem>
-        <BarItem name="Resume" link="#resume">
-          <FaFileAlt />
+        <BarItem name="GitHub" link="https://github.com/Sean-G-Han?tab=repositories">
+          <FaGithub size={25} />
         </BarItem>
       </ListGroup>
     </Container>

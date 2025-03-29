@@ -15,8 +15,8 @@
 
 @media (max-width: 768px) {
     .fixed-sidebar {
-        width: 100px;
+        width: 80px;
         right: 0;
-        left: auto;
+        display: none;
     }
 }

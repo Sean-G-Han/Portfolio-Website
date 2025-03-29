@@ -28,8 +28,7 @@ function AboutMe() {
 					</p>
 					<p>
 						I am currently looking for internship opportunities in software development and game development. 
-						Feel free to reach out to me if you have any questions or opportunities.
-						You can find my resume <a href="#resume">here</a>.
+						Feel free to reach out to me @ seantanyihan@gmail.com if you have any questions or opportunities.
 					</p>
 				</Col>
 
