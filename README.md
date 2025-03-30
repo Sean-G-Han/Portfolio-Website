@@ -11,9 +11,8 @@ This portfolio highlights my work in software development, game development, and
 ## Features
 - **Projects Showcase** – A collection of my notable projects with descriptions, technologies used, and links to source code or demos.
 - **About Me** – A brief introduction about my background, experience, and interests.
-- **Resume** – A downloadable version of my resume.
-- **Contact Information** – Ways to reach me, including email and LinkedIn.
-
+- **Experiences** - A brief showcase of past jobs and internships.
+- 
 ## Technologies Used
 - **Frontend:** React + Bootstrap
 - **Hosting:** Firebase Web Hosting
