@@ -12,10 +12,10 @@ function Introduction() {
             <ReactTyped
               strings={[
                 "Hi, I am Tan Yi Han",
-                "NUS Computer Science Undergraduate",
+                "NUS Computer Science Y2",
                 "Game Developer", 
                 "Software Developer",
-                "Looking for Internship Opportunities"
+                "Looking for Internship"
               ]}
               typeSpeed={40}
               backSpeed={50}

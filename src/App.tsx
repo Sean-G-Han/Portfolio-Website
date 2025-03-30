@@ -7,6 +7,7 @@ import AboutMe from './components/aboutme/AboutMe';
 import Projects from './components/projects/Projects';
 import Experiences from './components/experiences/Experiences';
 import NavigationBar from './components/mobile-navbar/NavigationBar';
+import ContactUs from './components/contact/Email';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Row>
             <Row id='experiences'>
               <Experiences />
+            </Row>
+            <Row id='contact'>
+              <ContactUs />
             </Row>
           </Col>
         </Row>

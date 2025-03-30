@@ -8,7 +8,7 @@ function AboutMe() {
 			<Row>
 				<Col xs={12} md="auto">
 					<center>
-						<Image src={ProfileImage} alt="Portrait" className="rounded-circle" width={180} height={180} />
+						<Image src={ProfileImage} alt="Portrait" className="rounded-circle" width={200} height={200} />
 					</center>
 				</Col>
 				<Col>

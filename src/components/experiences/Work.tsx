@@ -29,7 +29,7 @@ const Work: React.FC<WorkProps> = ({ title, imageLink, badges, employer, date, h
 						<Image 
 							src={imageLink}
 							fluid 
-							style={{ height: height, width: '100%', objectFit: 'cover', objectPosition: 'bottom' }} 
+							style={{ height: height, width: '100%', objectFit: 'cover', objectPosition: 'center' }} 
 						/>
 					</a>
 				) : (

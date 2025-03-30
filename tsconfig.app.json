@@ -6,6 +6,8 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "allowJs": true, // Allows JavaScript files in the TypeScript project
+    "checkJs": false, // (Optional) Prevents TypeScript from checking JS files
 
     /* Bundler mode */
     "moduleResolution": "bundler",

@@ -14,7 +14,7 @@ function Experiences() {
 			Work Experiences/Internships
       </h2>
       <GridWrapper numperrows={3}>
-				<Work title = "Game Dec Intern"
+				<Work title = "Game Dev Intern"
 					employer='Koei Tecmo Singapore Pte Ltd'
 					imageLink="https://www.koeitecmo.com.sg/wp-content/uploads/2023/10/black3.png"
 					hyperlink='https://www.koeitecmo.com.sg/'
