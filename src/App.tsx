@@ -16,7 +16,7 @@ function App() {
           <Sidebar />
           <NavigationBar />
           <Col className='main-body'>
-            <Row>
+            <Row id='introduction'>
               <Introduction />
             </Row>
             <Row id='aboutMe'>
