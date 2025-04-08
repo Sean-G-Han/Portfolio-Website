@@ -12,11 +12,3 @@
     width: 220px;
     overflow-y: auto;
   }
-
-@media (max-width: 768px) {
-    .fixed-sidebar {
-        width: 80px;
-        right: 0;
-        display: none;
-    }
-}
