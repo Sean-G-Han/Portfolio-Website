@@ -24,7 +24,7 @@ const ContactUs = () => {
   };
 
   return (
-    <Container data-bs-theme="dark" className="bg-dark">
+    <Container data-bs-theme="dark" className="p-5 bg-dark text-light">
 
       <center className="d-block d-md-none">
         <h1>

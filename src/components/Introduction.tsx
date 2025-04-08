@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 function Introduction() {
   return (
-    <Container className="vh-100 d-flex align-items-center justify-content-center">
+    <Container className="vh-100 d-flex align-items-center justify-content-center bg-dark text-light">
       <Col>
         <div />
         <Row>
